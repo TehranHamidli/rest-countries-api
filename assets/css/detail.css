@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.detail {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8em;
+
+
+}
+
+.detail-1,.detail-2{
+width: 300px;
+height: 300px;
+}
+
+.detailContainer {
+    margin-top: 50px;
+}
+
+.countryDetail {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.dtl {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+
+}
+
+
+.detail-1 h1 {
+    margin-bottom: 30px;
+}
+
+.countryImg{
+    display: flex;
+    flex-direction: column;
+}
+
+.back-btn {
+    position: relative;
+    padding: 0.6rem 3.2rem 0.6rem 4.4rem;
+    margin-bottom: 4rem;
+    margin-left: 7em;
+    font-size: 1.4rem;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    background: var(--bg-other);
+    color: var(--text);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    cursor: pointer;
+}
