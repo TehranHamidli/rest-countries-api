@@ -19,6 +19,7 @@ let array = [];
 mode.addEventListener("click", function () {
     body.classList.toggle("dark-mode");
     if (modeIcon.getAttribute("src") == './assets/image/dark-mode.png') {
+        modeText.innerHTML = "Light Mode";
         modeIcon.src = "./assets/image/light-icon2.png";
         modeIcon.style.background = "#fff"
         modeIcon.style.borderRadius = "15px";
@@ -26,11 +27,11 @@ mode.addEventListener("click", function () {
         search.style.color = "#fff";
         logo.style.color = "white";
         searchIcon.style.background = "#202C37";
-        modeText.innerHTML = "Light Mode";
+    
 
     } else {
         modeIcon.src = './assets/image/dark-mode.png';
-        modeText.innerHTML = "Dark Mode";
+        modeText.innerHTML = "Light Mode";
         logo.style.color = "hsl(209, 23%, 22%)";
         search.style.background = "white";
         searchIcon.style.background = "white";
